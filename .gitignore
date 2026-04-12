@@ -1,0 +1,78 @@
+# 🔥 Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# 🔐 Entornos virtuales
+
+env/
+venv/
+ENV/
+.env/
+.venv/
+
+# 🔑 Variables de entorno
+
+.env
+*.env
+
+# 📦 Archivos de Django
+
+*.log*
+db.sqlite3
+db.sqlite3-journal
+
+# 📁 Media (archivos subidos por usuarios)
+
+media/
+
+# 📁 Static compilados (opcional)
+
+staticfiles/
+
+# 🔄 Migraciones (opcional, depende del flujo de trabajo)
+
+# */migrations/
+
+# !*/migrations/**init**.py
+
+# 🧪 Coverage / testing
+
+htmlcov/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# 🧠 IDEs
+
+.vscode/
+.idea/
+
+# 🐧 Sistema operativo
+
+.DS_Store
+Thumbs.db
+
+# 🔧 Archivos temporales
+
+*.swp
+*.swo
+
+# 🐳 Docker (opcional)
+
+*.pid
+*.seed
+
+# 🔐 Claves sensibles
+
+secrets.json
+*.pem
+*.key
+
+# 📦 Archivos de build
+
+dist/
+build/
+*.egg-info/
