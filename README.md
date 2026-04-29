@@ -1,10 +1,6 @@
-Te lo voy a mejorar, pero no solo “bonito”: más claro, profesional y con estructura real de proyecto (lo que se espera en GitHub en equipos serios).
+# Sistema de Gestión Colaborativa de Tareas (SGCT)
 
----
-
-# 📌 Sistema de Gestión Colaborativa de Tareas (SGCT)
-
-## 🧠 Descripción
+## Descripción
 
 SGCT es una aplicación web diseñada para la gestión de tareas en entornos colaborativos. Permite a múltiples usuarios organizar su trabajo dentro de grupos, facilitando la asignación de tareas, el seguimiento de progreso y la comunicación entre miembros.
 
@@ -12,7 +8,7 @@ El sistema sigue una arquitectura cliente-servidor desacoplada, donde el fronten
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Centralizar la organización del trabajo en equipo mediante:
 
@@ -25,9 +21,9 @@ Centralizar la organización del trabajo en equipo mediante:
 
 ---
 
-## 🏗️ Stack Tecnológico
+## Stack Tecnológico
 
-### 🔙 Backend
+### Backend
 
 * Django
 * Django REST Framework
@@ -35,13 +31,13 @@ Centralizar la organización del trabajo en equipo mediante:
 * Gunicorn
 * Whitenoise
 
-### 🎨 Frontend
+### Frontend
 
 * React
 
 ---
 
-## 📦 Dependencias principales
+## Dependencias principales
 
 ### Backend
 
@@ -59,7 +55,7 @@ whitenoise==6.12.0
 
 ---
 
-## ⚙️ Funcionalidades principales
+## Funcionalidades principales
 
 * 🔐 Registro e inicio de sesión de usuarios
 * 👥 Creación y gestión de grupos
@@ -73,15 +69,15 @@ whitenoise==6.12.0
 
 ---
 
-## 🔐 Control de acceso
+## Control de acceso
 
 El sistema implementa control de acceso basado en:
 
-### 📍 Pertenencia
+### Pertenencia
 
 Un usuario solo puede interactuar con los grupos a los que pertenece.
 
-### 🎭 Roles
+### Roles
 
 **Administrador**
 
@@ -96,7 +92,7 @@ Un usuario solo puede interactuar con los grupos a los que pertenece.
 
 ---
 
-## 🔗 Modelo de datos (visión general)
+## Modelo de datos (visión general)
 
 El sistema utiliza un modelo relacional con las siguientes entidades:
 
@@ -111,7 +107,7 @@ El sistema utiliza un modelo relacional con las siguientes entidades:
 
 ---
 
-## 🔄 Flujos principales
+## Flujos principales
 
 ### 1. Registro
 
@@ -135,11 +131,11 @@ Los usuarios interactúan mediante comentarios en tareas.
 
 ---
 
-## 🌐 Arquitectura
+## Arquitectura
 
 El sistema está dividido en dos repositorios independientes:
 
-### 🔙 Backend
+### Backend
 
 Responsable de:
 
@@ -149,7 +145,7 @@ Responsable de:
 * Acceso a datos
 * API REST
 
-### 🎨 Frontend
+### Frontend
 
 Responsable de:
 
@@ -159,9 +155,9 @@ Responsable de:
 
 ---
 
-## 🚀 Instalación y ejecución
+## Instalación y ejecución
 
-### 🔙 Backend
+### Backend
 
 ```bash
 # Clonar repositorio
@@ -187,7 +183,7 @@ python manage.py runserver
 
 ---
 
-### 🎨 Frontend
+### Frontend
 
 ```bash
 # Clonar repositorio
@@ -206,7 +202,7 @@ npm run dev
 
 ---
 
-## 🛡️ Seguridad
+## Seguridad
 
 * Autenticación basada en tokens
 * Validación de permisos en backend
@@ -215,7 +211,7 @@ npm run dev
 
 ---
 
-## 📊 Escalabilidad
+## Escalabilidad
 
 El sistema está preparado para:
 
@@ -226,7 +222,7 @@ El sistema está preparado para:
 
 ---
 
-## 🧠 Decisiones de diseño
+## Decisiones de diseño
 
 * Uso de relación muchos a muchos con roles → flexibilidad en permisos
 * Arquitectura desacoplada → escalabilidad y mantenibilidad
@@ -242,7 +238,7 @@ El sistema está preparado para:
 
 ---
 
-## 📌 Estado del proyecto
+## Estado del proyecto
 
 🚧 En desarrollo / Funcional (MVP)
 
