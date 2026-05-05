@@ -13,9 +13,9 @@ class UserAPIView(APIView):
 
         users = get_user_model().objects.all()
 
-        serializer = UserSerializer(users, many = True)
+        serializer = UserSerializer(users, many=True)
 
-        return Response(data= serializer.data, status = status.HTTP_200_OK)
+        return Response(data=serializer.data, status=status.HTTP_200_OK)
 
     def post(self, request):
 
