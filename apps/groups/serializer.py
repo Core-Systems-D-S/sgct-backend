@@ -4,7 +4,8 @@ from apps.users.serializers import UserGroupSerializer
 
 class GroupSerializer(serializers.ModelSerializer):
     owner = UserGroupSerializer(read_only = True)
-
+    
     class Meta:
         model = Group
-        fields = ["name", "description", "owner", "is_active"]
+        fields = ["id", "name", "description", "owner", "is_active"]
+        read_only_fields = ["id"]
